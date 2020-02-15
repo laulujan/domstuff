@@ -18,7 +18,10 @@ createLists(lastLink)
 var penultimo = links[numberOfLinks-2]
 createLists(penultimo);
 
-var wemanLinks = document.querySelectorAll
+var wemanLinks = document.querySelectorAll("a[href=\"https://wemanconnect.com\"]")
+
+createLists(wemanLinks.length);
+
 
 var parrafo = document.getElementsByTagName("p");
 
